@@ -5,7 +5,9 @@
 [![maven](https://img.shields.io/maven-central/v/net.unmz.java/unmz-desensitization-spring-boot-starter.svg)](https://search.maven.org/artifact/net.unmz.java/unmz-desensitization-spring-boot-starter)
 
 
-将本项目引入spring-boot项目中后,无需其他操作即可使用注解进行脱敏
+将本项目基于mybatis实现
+
+引入spring-boot项目中后,无需其他操作即可使用注解进行脱敏
 
 在java对象属性上增加注解@Desensitization用来标识该属性用于脱敏,选择DesensitizationType类型来标识以何种格式进行脱敏
 
@@ -16,6 +18,10 @@
 
 
 #### 更新日志:
+
+##### 2021-03-05 v1.0.1
+
+    [A]优化代码
 
 ##### 2021-03-05 v1.0.0
 

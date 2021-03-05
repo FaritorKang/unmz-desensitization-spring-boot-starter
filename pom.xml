@@ -6,7 +6,7 @@
 
     <groupId>net.unmz.java</groupId>
     <artifactId>unmz-desensitization-spring-boot-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <name>unmz-desensitization-spring-boot-starter</name>
     <description>desensitization for spring boot starter </description>
