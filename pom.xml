@@ -8,6 +8,10 @@
     <artifactId>unmz-desensitization-spring-boot-starter</artifactId>
     <version>1.0.0</version>
 
+    <name>unmz-desensitization-spring-boot-starter</name>
+    <description>desensitization for spring boot starter </description>
+    <url>https://github.com/FaritorKang/unmz-desensitization-spring-boot-starter</url>
+
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
