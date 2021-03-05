@@ -147,8 +147,7 @@ public class DesensitizationInterceptor implements Interceptor {
             }
 
             Desensitization desensitization;
-            if (String.class != field.getType()
-                    || (desensitization = field.getAnnotation(Desensitization.class)) == null) {
+            if (String.class != field.getType() || (desensitization = field.getAnnotation(Desensitization.class)) == null) {
                 continue;
             }
 
@@ -186,7 +185,7 @@ public class DesensitizationInterceptor implements Interceptor {
             String match = regular.get(0);
             String result = regular.get(1);
             if (null != match && result != null && match.length() > 0) {
-                value = ((String) value).replaceAll(match, result);
+                value = value.replaceAll(match, result);
                 return value;
             }
         }
